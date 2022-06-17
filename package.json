@@ -1,15 +1,11 @@
 {
 	"name": "@thundercraft5/type-utils",
-	"version": "1.0.7",
+	"version": "1.0.0",
 	"type": "module",
 	"keywords": [
-		"deferred",
-		"promise",
-		"que",
-		"qued",
-		"progress",
-		"notification",
-		"notify"
+		"types",
+		"typescript",
+		"utils"
 	],
 	"repository": {
 		"type": "git",
