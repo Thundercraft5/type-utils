@@ -1,0 +1,2 @@
+export type AbstractConstructor<T = any, A extends any[] = any[]> = abstract new (...args: A) => T;
+export type ConstructorReturnType<T extends AbstractConstructor> = T extends AbstractConstructor<infer R> ? R : unknown;
