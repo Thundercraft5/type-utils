@@ -1,0 +1,45 @@
+{
+	"name": "@thundercraft5/type-utils",
+	"version": "1.0.7",
+	"type": "module",
+	"keywords": [
+		"deferred",
+		"promise",
+		"que",
+		"qued",
+		"progress",
+		"notification",
+		"notify"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thundercraft5/type-utils.git"
+	},
+	"bugs": {
+		"url": "https://github.com/thundercraft5/type-utils/issues"
+	},
+	"homepage": "https://github.com/thundercraft5/type-utils#readme",
+	"scripts": {
+		"prepublish": "npm run build",
+		"build": "del-cli ./dist && tsc"
+	},
+	"types": "./dist/types/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/types/index.d.ts"
+		}
+	},
+	"author": "Thundercraft5",
+	"license": "MIT",
+	"devDependencies": {
+		"@thundercraft5/eslint-plugin": "file:../eslint-plugin",
+		"@thundercraft5/type-utils": "file:",
+		"@thundercraft5/tsconfig": "file:../tsconfig",
+		"@types/node-cron": "3.0.1",
+		"del-cli": "4.0.1",
+		"eslint": "8.17.0",
+		"ts-node": "10.8.1",
+		"typescript": "4.8.0-dev.20220604"
+	},
+	"description": "A collection of various utility types for typescript projects."
+}
