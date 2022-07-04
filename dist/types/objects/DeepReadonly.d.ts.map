@@ -1,0 +1,1 @@
+{"version":3,"file":"DeepReadonly.d.ts","sourceRoot":"","sources":["../../../src/objects/DeepReadonly.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,UAAU,EAAE,MAAM,YAAY,CAAC;AAE7C,oBAAY,YAAY,CAAC,CAAC,IACzB,CAAC,SAAS,QAAQ,GAAG,UAAU,GAC5B,CAAC,GACD;IAAE,QAAQ,EAAE,CAAC,IAAI,MAAM,CAAC,GAAG,YAAY,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;CAAG,CAAC"}

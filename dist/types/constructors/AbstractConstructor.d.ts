@@ -1,2 +1,2 @@
-export declare type AbstractConstructor<T = any, A extends any[] = any[]> = abstract new (...args: A) => T;
+export declare type AbstractConstructor<R = any, A extends any[] = any[]> = abstract new (...args: A) => R;
 //# sourceMappingURL=AbstractConstructor.d.ts.map
