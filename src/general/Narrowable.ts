@@ -1,0 +1,1 @@
+export type Narrowable = bigint | boolean | number | string;

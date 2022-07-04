@@ -1,9 +1,7 @@
-import { Capture } from "./Capture";
-
 /** 
- * The purpose of this type is to capture literal arguments for generics. [`Capture`](./Capture.ts)
+ * The purpose of this type is to narrow literal arguments for generics. 
  */
-export type Any = Any[] |
+export type Any = (Any | Any[])[] |
 	bigint |
 boolean |
 number |

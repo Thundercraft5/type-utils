@@ -1,0 +1,1 @@
+export type AbstractFunction<R = any, A extends any[] = any[]> = (...args: A) => R;
