@@ -1,9 +1,5 @@
 /**
  * The purpose of this type is to narrow literal arguments for generics.
  */
-export declare type Any = (Any | Any[])[] | bigint | boolean | number | string | symbol | ((...args: Any[]) => Any) | (abstract new (...args: Any[]) => Any) | {
-    [key: string]: Any;
-    [key: number]: Any;
-    [key: symbol]: Any;
-} | null | undefined;
+export declare type Any = bigint | boolean | number | object | string | symbol | null | undefined;
 //# sourceMappingURL=Any.d.ts.map
