@@ -17,7 +17,8 @@
 	"homepage": "https://github.com/thundercraft5/type-utils#readme",
 	"scripts": {
 		"prepublishOnly": "npm run build",
-		"build": "del-cli ./dist && tsc"
+		"build": "del-cli ./dist && tsc",
+		"watch": "tsc --watch"
 	},
 	"types": "./dist/types/index.d.ts",
 	"exports": {

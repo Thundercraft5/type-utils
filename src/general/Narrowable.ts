@@ -1,1 +1,1 @@
-export type Narrowable = bigint | boolean | number | string;
+export type Narrowable = bigint | boolean | number | string | symbol | null | undefined;

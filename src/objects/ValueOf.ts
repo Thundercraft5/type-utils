@@ -1,1 +1,1 @@
-export type ValueOf<O extends {}, V extends keyof O = keyof O> = O[V];
+export type ValueOf<O extends {}, K extends keyof O = keyof O> = O[K];
