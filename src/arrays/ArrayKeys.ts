@@ -1,4 +1,3 @@
-import { Enumerate } from "../numbers";
+import type { StringsToNumber } from "../numbers";
 
-
-export type ArrayKeys<A extends any[] = []> = Enumerate<A["length"]>;
+export type ArrayKeys<A extends any[]> = StringsToNumber<string & keyof A>;

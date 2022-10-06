@@ -1,4 +1,4 @@
-export declare type MappedObject<O extends {}> = {
+export type MappedObject<O extends {}> = {
     [K in keyof O]: O[K];
 };
 //# sourceMappingURL=MappedObject.d.ts.map

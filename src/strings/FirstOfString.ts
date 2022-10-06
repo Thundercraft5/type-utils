@@ -1,0 +1,1 @@
+export type FirstOfString<S extends string> = S extends `${ infer U }${ string }` ? U : "";

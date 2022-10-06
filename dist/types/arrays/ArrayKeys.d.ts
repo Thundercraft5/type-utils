@@ -1,3 +1,3 @@
-import { Enumerate } from "../numbers";
-export declare type ArrayKeys<A extends any[] = []> = Enumerate<A["length"]>;
+import type { StringsToNumber } from "../numbers";
+export type ArrayKeys<A extends any[]> = StringsToNumber<string & keyof A>;
 //# sourceMappingURL=ArrayKeys.d.ts.map

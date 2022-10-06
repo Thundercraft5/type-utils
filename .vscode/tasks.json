@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "watch",
+			"label": "NPM - Watch",
+			"isBackground": true,
+			"problemMatcher": "$tsc-watch",
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
+		}
+	],
+}

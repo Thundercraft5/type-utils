@@ -1,1 +1,1 @@
-export type StringKeyOf<BaseType extends {}> = `${Extract<keyof BaseType, number | string>}`;
+export type StringKeyOf<BaseType extends {}> = `${ Extract<keyof BaseType, number | string> }`;
