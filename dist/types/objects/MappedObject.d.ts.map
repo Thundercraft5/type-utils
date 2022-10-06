@@ -1,1 +1,1 @@
-{"version":3,"file":"MappedObject.d.ts","sourceRoot":"","sources":["../../../src/objects/MappedObject.ts"],"names":[],"mappings":"AAAA,oBAAY,YAAY,CAAC,CAAC,SAAS,EAAE,IAAI;KACvC,CAAC,IAAI,MAAM,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC;CACpB,CAAC"}
+{"version":3,"file":"MappedObject.d.ts","sourceRoot":"","sources":["../../../src/objects/MappedObject.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,YAAY,CAAC,CAAC,SAAS,EAAE,IAAI;KACvC,CAAC,IAAI,MAAM,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC;CACpB,CAAC"}

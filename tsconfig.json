@@ -7,7 +7,7 @@
 	},
 	"include": [
 		"**/*.ts",
-		"**/*.md/*.js"
+		"**/*.md/*.js",
 	],
 	"exclude": [
 		"node_modules",
