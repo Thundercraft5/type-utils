@@ -1,5 +1,4 @@
 import { Cast } from ".";
-
 import type { Try } from ".";
 import type { RawNarrowBase } from "./Narrow";
 

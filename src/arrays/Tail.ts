@@ -1,0 +1,1 @@
+export type Tail<Arr extends unknown[]> = Arr extends [unknown, ...infer U] ? U : [];

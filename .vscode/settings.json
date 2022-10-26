@@ -69,8 +69,99 @@
 		"**/SECURITY.md": true,
 		"**/ThirdPartyNoticeText.txt": true,
 		"**/.package-lock.json": true,
-		"**/CopyrightNotice.txt": true
+		"**/CopyrightNotice.txt": true,
+		"values": true,
+		"strings": true,
+		"objects": true,
+		"general": true,
+		"constructors": true,
+		"arrays": true,
+		"builtin-types": true,
+		"numbers": true,
+		"functions": true
 	},
 	"explorerExclude.backup": {},
-	"task.allowAutomaticTasks": "on"
+	"task.allowAutomaticTasks": "on",
+	"workbench.colorTheme": "Default Dark+",
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "keyword.operator.arrow, punctuation.definition.template-expression, punctuation.definition.interpolation, keyword.operator.arrow,  variable.language.super, punctuation.section.embedded.substatement, keyword.other.is.cs, keyword.other.implicit.cs, keyword.other.rust, keyword.other.fn.rust, keyword.declaration.struct.rust, keyword.declaration.trait.rust, storage.type.rust, storage.type.interface, storage.type.ts,keyword.other.as.cs, keyword.other.new.cs, keyword.other.where.cs, keyword.other.import.java, keyword.other.package.java, storage.type.primitive.java, storage.type.type.ts, storage.type.tsx, storage.type.type.tsx, storage.type.namespace, keyword.operator.arrow, storage.type.enum.ts, storage.type.modifier.access.public.cpp, storage.type.modifier, storage.type.built-in.primitive",
+				"settings": {
+					"foreground": "#569CD6",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "punctuation.terminator.statement, punctuation.separator.comma, punctuation.separator.dictionary.key-value, punctuation.separator.key-value, punctuation.separator.array, punctuation.separator.dictionary, punctuation.terminator.expression, keyword.operator.return-value, punctuation.terminator, punctuation.separator.delimiter, punctuation.accessor, punctuation.separator.period, punctuation.definition.parameters.varargs, punctuation.separator.parameter, keyword.operator.rest, keyword.operator.spread, punctuation.separator.scope-resolution, punctuation.separator.colon, punctuation.definition.section.case-statement, punctuation.separator.list, punctuation.destructuring, punctuation.semi.rust, punctuation.comma.rust, keyword.operator.key-value.rust, keyword.operator.namespace.rust, punctuation.separator.label, keyword.operator.type.annotation.ts",
+				"settings": {
+					"foreground": "#808080"
+				}
+			},
+			{
+				"scope": "keyword.operator.comparison, keyword.operator.logical, keyword.operator.assignment, keyword.operator.arithmetic, keyword.operator.increment-decrement, keyword.operator.increment, keyword.operator.other, keyword.operator.assignment, keyword.operator.relational, keyword.operator.bitwise, keyword.operator.decrement, keyword.operator.unary.powershell, keyword.operator.math.rust, keyword.operator.type.ts",
+				"settings": {
+					"foreground": "#676ece"
+				}
+			},
+			{
+				"scope": "support.function.attribute.powershell, entity.name.module.rust, storage.modifier.import.java",
+				"settings": {
+					"foreground": "#4EC9B0",
+					"fontStyle": ""
+				}
+			},
+			{
+				"scope": "variable.parameter.attribute, entity.name.variable.property.cs",
+				"settings": {
+					"foreground": "#4FC1FF"
+				}
+			},
+			{
+				"scope": "keyword.operator.type",
+				"settings": {
+					"foreground": "#C586C0"
+				}
+			},
+			{
+				"scope": "keyword.operator.ternary, keyword.operator.conditional, punctuation.separator.question-mark.cs, punctuation.definition.attribute.rust, keyword.operator.borrow.and.rust, keyword.operator.optional.ts, keyword.operator.optional.tsx, keyword.operator.definiteassignment.ts, keyword.operator.type.asserts",
+				"settings": {
+					"foreground": "#C586C0",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "keyword.operator.arrow, punctuation.definition.template-expression, punctuation.definition.interpolation, keyword.operator.arrow,  variable.language.super, punctuation.section.embedded.substatement, keyword.other.is.cs, keyword.other.implicit.cs, keyword.other.rust, keyword.other.fn.rust, keyword.declaration.struct.rust, keyword.declaration.trait.rust, storage.type.rust, storage.type.interface, storage.type.ts,keyword.other.as.cs, keyword.other.new.cs, keyword.other.where.cs, keyword.other.import.java, keyword.other.package.java, storage.type.primitive.java, storage.type.type.ts, storage.type.tsx, storage.type.type.tsx, storage.type.namespace, keyword.operator.arrow",
+				"settings": {
+					"foreground": "#569CD6",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "constant.numeric",
+				"settings": {
+					"foreground": "#e269e2a8"
+				}
+			},
+			{
+				"scope": "constant.character.escape",
+				"settings": {
+					"foreground": "#D7BA7D"
+				}
+			},
+			{
+				"scope": "storage.type.function.arrow, keyword.operator.expression, storage.modifier, keyword.control, keyword.operator.new, keyword.other.class, keyword.type, keyword.other.namespace, keyword.preprocessor, keyword.other.using, keyword.other.var, keyword.other.interface, keyword.other.operator-decl, entity.name.tag, keyword.other.get, keyword.other.get, storage.type.js, keyword.other.static, keyword.other.nameof,  keyword.other.typeof, keyword.other.delegate, storage.type.function, keyword.other.struct, keyword.other.set, storage.type.property, storage.type.class",
+				"settings": {
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "entity.name.label.js",
+				"settings": {
+					"foreground": "#ff9b68"
+				}
+			}
+		],
+		"comments": ""
+	}
 }

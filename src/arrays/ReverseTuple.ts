@@ -1,8 +1,8 @@
-import type { FirstOfTuple } from "./FirstOfTuple";
-import type { RemoveFirstOfTuple } from "./RemoveFirstOfTuple";
+import type { First } from "./First";
+import type { RemoveFirst } from "./RemoveFirst";
 
 export type ReverseTuple<A extends any[]> = any[] extends A
 	? A
 	: A extends []
 		? []
-		: [...ReverseTuple<RemoveFirstOfTuple<A>>, FirstOfTuple<A>];
+		: [...ReverseTuple<RemoveFirst<A>>, First<A>];

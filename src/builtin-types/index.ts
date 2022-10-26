@@ -1,16 +1,9 @@
 /* eslint-disable @typescript-eslint/consistent-indexed-object-style */
 /* eslint-disable @typescript-eslint/no-empty-interface */
 /* eslint-disable @typescript-eslint/consistent-type-definitions */
-import type {
-	Cast,
-	HasOwn,
-	KeyOf,
-	ObjectEntries,
-	Reconstruct,
-	ValueOf,
-	_,
-} from "..";
 
+import type { Reconstruct } from "../general";
+import type { HasOwn, ObjectEntries, ValueOf } from "../objects";
 
 interface ArrayExtensions<T> {
 	length: number;
@@ -68,4 +61,4 @@ function nameof<T extends object>(nameObject: TruncateObjectStrict<T>) {
 }
 
 const E = "0",
-	name = nameof({ E });
+	name = nameof({ F: "0" });
