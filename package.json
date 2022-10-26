@@ -1,6 +1,6 @@
 {
 	"name": "@thundercraft5/type-utils",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"type": "module",
 	"keywords": [
 		"types",
@@ -71,8 +71,7 @@
 		"typescript": "4.9.0-dev.20221023"
 	},
 	"description": "A collection of various utility types for typescript projects.",
-	"dependencies": {
-	},
+	"dependencies": {},
 	"typedoc": {
 		"entryPoint": "./src/index.ts"
 	},
