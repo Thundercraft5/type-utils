@@ -1,1 +1,0 @@
-{"version":3,"file":"SelfReferencingKeys.d.ts","sourceRoot":"","sources":["../src/objects/SelfReferencingKeys.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,mBAAmB,CAAC,CAAC,IAAI;KACnC,CAAC,IAAI,MAAM,CAAC,GAAG,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC,SAAS,CAAC,GAAG,CAAC,GAAG,KAAK,GAAG,KAAK;CACnE,CAAC,MAAM,CAAC,CAAC,CAAC"}

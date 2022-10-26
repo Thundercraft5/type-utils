@@ -1,1 +1,0 @@
-{"version":3,"file":"GenericObject.d.ts","sourceRoot":"","sources":["../src/objects/GenericObject.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,aAAa,CAAC;AAE7C,MAAM,MAAM,aAAa,GAAG;IAAE,CAAC,GAAG,EAAE,SAAS,GAAG,OAAO,CAAA;CAAE,CAAC"}
