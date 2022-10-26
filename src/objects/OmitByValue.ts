@@ -1,3 +1,3 @@
-import type { ExtractKeys } from "./ExtractKeys";
+import type { ConditionalKeys } from "./ConditionalKeys";
 
-export type OmitByValue<T extends object, V> = Omit<T, ExtractKeys<T, V>>;
+export type OmitByValue<T extends object, V> = Omit<T, ConditionalKeys<T, V>>;

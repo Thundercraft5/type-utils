@@ -1,10 +1,11 @@
+/* eslint-disable @typescript-eslint/sort-type-union-intersection-members */
 import { Narrowable } from "./Narrowable";
 
-/* eslint-disable @typescript-eslint/sort-type-union-intersection-members */
+import type { NarrowArray } from "../arrays";
 import type { Cast } from "./Cast";
 import type { ExtractExact } from "./ExtractExact";
+import type { NarrowConstrainedObject } from "./NarrowConstrainedObject";
 import type { Restrict, RestrictNarrow } from "./Restrict";
-
 
 
 /**
@@ -35,11 +36,3 @@ export type Narrow<T extends any> = ((Cast<T, RawNarrowBase<T> | []>) & T) | T;
  * @template B The type to constrain {@linkcode T} to (uses {@linkcode Restrict}), defaults to {@linkcode T}
  */
 export type BoundedNarrow<T, B = T> = ExtractExact<Narrow<Restrict<T, B>>, T>;
-
-function $1<T extends string = "0">(value: Narrow<T> = "0" as T) {
-	return null as any as T;
-}
-
-const item = $1();
-
-item.slice(0, 1)

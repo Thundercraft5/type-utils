@@ -1,1 +1,0 @@
-{"version":3,"file":"OptionalPropertyNames.d.ts","sourceRoot":"","sources":["../../../src/objects/OptionalPropertyNames.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,qBAAqB,CAAC,CAAC,IAAI;KACrC,CAAC,IAAI,MAAM,CAAC,CAAC,CAAC,GAAG,CAAC,EAAE,SAAS;SAC5B,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC;KACd,GAAG,CAAC,GAAG,KAAK,CAAC;CACd,CAAC,MAAM,CAAC,CAAC,CAAC"}

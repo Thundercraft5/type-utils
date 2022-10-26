@@ -1,3 +1,3 @@
-import type { StringsToNumber } from "../numbers";
+import type { ToNumber } from "../numbers";
 
-export type ArrayKeys<A extends any[]> = StringsToNumber<string & keyof A>;
+export type ArrayKeys<A extends any[]> = ToNumber<Extract<keyof A, `${ bigint }`>>;

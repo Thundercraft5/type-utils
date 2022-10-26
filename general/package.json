@@ -1,0 +1,6 @@
+{
+	"name": "@thundercraft5/type-utils/general",
+	"types": "../dist/types/general/index.d.ts",
+	"sideEffects": false,
+	"private": true
+}

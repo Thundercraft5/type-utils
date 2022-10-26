@@ -1,0 +1,1 @@
+{"version":3,"file":"RestrictToPositive.d.ts","sourceRoot":"","sources":["../src/numbers/RestrictToPositive.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,UAAU,EAAE,MAAM,cAAc,CAAC;AAE/C,MAAM,MAAM,kBAAkB,CAAC,CAAC,SAAS,MAAM,EAAE,IAAI,SAAS,MAAM,GAAG,CAAC,IACvE,CAAC,SAAS,CAAC,GACR,IAAI,GACJ,UAAU,CAAC,CAAC,CAAC,SAAS,IAAI,GACzB,IAAI,GACJ,CAAC,CAAC"}
