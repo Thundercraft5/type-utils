@@ -1,1 +1,1 @@
-export type AbstractConstructor<R = any, A extends any[] = any[]> = abstract new (...args: A) => R;
+export type AbstractConstructor<R = any, A extends any[] = any[]> = new (...args: A) => R;

@@ -3,11 +3,41 @@
 	"compilerOptions": {
 		"incremental": true,
 		"module": "esnext",
-		"declarationDir": "dist/types",
+		"declarationDir": ".",
+		"resolveJsonModule": true,
+		"baseUrl": ".",
+		"paths": {
+			"@thundercraft5/type-utils": [
+				"./src/index"
+			],
+			"@thundercraft5/type-utils/arrays": [
+				"./src/arrays/index",
+			],
+			"@thundercraft5/type-utils/objects": [
+				"./src/objects/index",
+			],
+			"@thundercraft5/type-utils/strings": [
+				"./src/strings/index",
+			],
+			"@thundercraft5/type-utils/numbers": [
+				"./src/numbers/index",
+			],
+			"@thundercraft5/type-utils/values": [
+				"./src/values/index",
+			],
+			"@thundercraft5/type-utils/general": [
+				"./src/general/index",
+			],
+			"@thundercraft5/type-utils/functions": [
+				"./src/functions/index",
+			],
+			"@thundercraft5/type-utils/constructors": [
+				"./src/constructors/index",
+			]
+		}
 	},
 	"include": [
-		"**/*.ts",
-		"**/*.md/*.js",
+		"src/**/*.ts",
 	],
 	"exclude": [
 		"node_modules",

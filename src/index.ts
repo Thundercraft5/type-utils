@@ -1,8 +1,8 @@
-export * from "./arrays";
-export * from "./constructors";
-export * from "./functions";
+export * as Arrays from "./arrays";
+export * as Constructors from "./constructors";
+export * as Functions from "./functions";
 export * from "./general";
-export * from "./numbers";
-export * from "./objects";
-export * from "./strings";
-export * from "./values";
+export * as Numbers from "./numbers";
+export * as Objects from "./objects";
+export * as Strings from "./strings";
+export * as Values from "./values";
