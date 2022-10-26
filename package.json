@@ -1,6 +1,6 @@
 {
 	"name": "@thundercraft5/type-utils",
-	"version": "4.0.0",
+	"version": "4.0.1",
 	"type": "module",
 	"keywords": [
 		"types",
@@ -17,6 +17,7 @@
 	"homepage": "https://github.com/thundercraft5/type-utils#readme",
 	"scripts": {
 		"prepublishOnly": "npm run build",
+		"postpublish": "npm run clean",
 		"build": "npm run clean && tsc -b -f && ts-node ./tools/build",
 		"watch": "tsc -w -i || npm run watch",
 		"clean": "tsc -b --clean && tree ./src/ -dfi -L 1 | sed -nE \"s/\\.\\/src\\///p\" | xargs rm -rf"
