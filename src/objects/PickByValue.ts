@@ -1,3 +1,3 @@
-import type { ExtractKeys } from "./ExtractKeys";
+import type { ConditionalKeys } from "./ConditionalKeys";
 
-export type PickByValue<T extends object, V> = Pick<T, ExtractKeys<T, V>>;
+export type PickByValue<T extends object, V> = Pick<T, ConditionalKeys<T, V>>;

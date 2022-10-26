@@ -1,3 +1,3 @@
-export type ObjectEntries<T extends object> = {
+export type ObjectEntries<T> = {
 	[K in keyof T]: [K, T[K]];
 }[keyof T][];

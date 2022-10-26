@@ -1,5 +1,0 @@
-export type SliceTupleEnd<A extends any[], E extends number = A["length"]> = A extends [...infer R, any]
-	? A["length"] extends E
-		? A
-		: SliceTupleEnd<R, E>
-	: A;

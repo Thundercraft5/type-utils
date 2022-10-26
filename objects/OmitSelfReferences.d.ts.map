@@ -1,0 +1,1 @@
+{"version":3,"file":"OmitSelfReferences.d.ts","sourceRoot":"","sources":["../src/objects/OmitSelfReferences.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,WAAW,EAAE,MAAM,GAAG,CAAC;AAErC,MAAM,MAAM,kBAAkB,CAAC,CAAC,IAAI,WAAW,CAAC;KAC9C,CAAC,IAAI,MAAM,CAAC,GAAG,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,GAAG,KAAK,GAAG,CAAC,CAAC,CAAC,CAAC;CAC7C,EAAE,KAAK,CAAC,CAAC"}

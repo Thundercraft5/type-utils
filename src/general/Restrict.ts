@@ -1,5 +1,4 @@
-import { Literal } from "./Literal";
-
+import type { Literal } from "./Literal";
 import type { Narrowable } from "./Narrowable";
 import type { Widen } from "./Widen";
 
@@ -20,8 +19,8 @@ export type Restrict<T extends any, Bounds extends unknown> =
 					? T
 					: Bounds
 				: T
-	: Bounds;
-		
+		: Bounds;
+
 export type RestrictNarrow<T extends any, Bounds extends unknown> =
 	T extends Bounds
 		? T extends Function | Narrowable
