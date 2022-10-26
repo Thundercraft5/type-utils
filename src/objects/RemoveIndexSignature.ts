@@ -10,6 +10,3 @@ import type { ExcludeExact, Reconstruct } from "../general";
 export type RemoveIndexSignature<O> = {
 	[K in keyof O as ExcludeExact<K, PropertyKey>]: O[K]
 };
-
-
-type $4 = RemoveMixedArrayIndexSignature<{ [key: number]: any; key: string } & [0, 1, 2, 3]>;
