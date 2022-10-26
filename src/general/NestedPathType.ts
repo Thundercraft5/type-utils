@@ -22,7 +22,7 @@ type ExtractNull<T> = Extract<T, null | undefined>
 /** Preserve null values from nested objects, so that unions produce errors when indexed improperly. */
 type PreserveNull<T> = ExtractNull<T> | NullableIfNotObject<T>
 
-type PreserveNullIndex<T, K extends ExactKeyof<T>> = PreserveNull<T | T[K]>
+type PreserveNullIndex<T, K> = PreserveNull<T | T[K & ExactKeyof<T>]>
 
 type OnlyObject<T> = Extract<T, object>;
 type OptionalSep = "." | ""
@@ -86,4 +86,4 @@ export type NestedPathType<
 
 
 type $2 = NestedPathType<string | [{ E: {F:"0"} | string }], "[0].E.F">;
-type $3 = Reconstruct<NestedPathType<null | string | [{ [key: string]: any, E: {F:"0"}[] | string }], "[0].E[].F">>;
+type $3 = Reconstruct<NestedPathType<null | string | [{ E: {F:"0"}[] | string }], "[0].E[].F">>;	
