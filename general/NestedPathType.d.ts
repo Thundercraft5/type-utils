@@ -5,7 +5,7 @@ type NullableIfNotObject<T> = Exclude<T, object> extends never ? never : undefin
 type ExtractNull<T> = Extract<T, null | undefined>;
 /** Preserve null values from nested objects, so that unions produce errors when indexed improperly. */
 type PreserveNull<T> = ExtractNull<T> | NullableIfNotObject<T>;
-type PreserveNullIndex<T, K extends ExactKeyof<T>> = PreserveNull<T | T[K]>;
+type PreserveNullIndex<T, K> = PreserveNull<T | T[K & ExactKeyof<T>]>;
 type OnlyObject<T> = Extract<T, object>;
 type OptionalSep = "." | "";
 type TrimSep<S extends string> = TrimRight<S, ".">;

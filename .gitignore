@@ -1,1 +1,13 @@
 node_modules
+.git
+index.d.ts
+index.d.ts.map
+arrays 
+builtin-types
+constructors 
+functions 
+general 
+numbers 
+objects 
+strings 
+values
